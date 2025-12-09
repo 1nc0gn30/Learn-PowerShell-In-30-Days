@@ -1,0 +1,67 @@
+:root {
+  color-scheme: dark;
+  --bg: #0b0d10;
+  --text: #e6e6e6;
+  --surface: #111827;
+  --accent: #7dd3fc;
+}
+
+:root[data-theme='light'] {
+  color-scheme: light;
+  --bg: #f7fafc;
+  --text: #0f172a;
+  --surface: #e2e8f0;
+  --accent: #0ea5e9;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: system-ui, sans-serif;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+  margin-left: 1rem;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background: var(--surface);
+}
+
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.theme-toggle {
+  border: 1px solid var(--accent);
+  background: transparent;
+  color: var(--text);
+  padding: 0.35rem 0.75rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.theme-toggle:hover {
+  background: var(--accent);
+  color: #0b0d10;
+}
+
+.footer {
+  padding: 1rem;
+  text-align: center;
+  opacity: 0.7;
+}
+
+main {
+  padding: 2rem;
+}
