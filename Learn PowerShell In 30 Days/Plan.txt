@@ -1,0 +1,282 @@
+⚡ Learn PowerShell in 30 Days (2025 Edition)
+
+Designed for: devs, hackers, SOX analysts, sysadmins
+Outcome: production-ready scripts, modular functions, automation pipelines, and real tools.
+
+WEEK 1 — Core Fundamentals (Days 1–7)
+
+Build muscle memory and understand the engine.
+
+Day 1 — PsCore vs Windows PowerShell, profiles, modules
+
+Install PowerShell 7
+
+Update $PROFILE
+
+Essential modules: PSReadLine, Pester, Microsoft.PowerShell.SecretManagement
+
+Learn Get-Help, Get-Command, Get-Member
+
+Day 2 — Objects > text
+
+Understand pipeline object flow
+
+Select-Object, Sort-Object, Where-Object, Format-Table, Format-List
+
+Day 3 — Variables, arrays, hashtables
+
+PSObjects
+
+Strong vs weak typing
+
+PowerShell’s key–value structures
+
+Day 4 — Functions & Parameters (2025 best practices)
+
+param() blocks
+
+[CmdletBinding()]
+
+switches, validation attributes
+
+Return objects, not strings
+
+Day 5 — Error handling
+
+try/catch/finally
+
+$ErrorActionPreference
+
+-ErrorAction Stop
+
+Create clean error outputs
+
+Day 6 — Filesystem automation
+
+Get-ChildItem, Copy-Item, Move-Item, Remove-Item
+
+Recursion
+
+Work with large file sets and logs
+
+Day 7 — JSON, CSV, XML
+
+ConvertTo-Json / ConvertFrom-Json
+
+Import/export CSV with type safety
+
+Parse XML for config + audits
+
+WEEK 2 — Real Automation (Days 8–14)
+
+This is where 80% of real-world value comes from.
+
+Day 8 — Advanced pipeline patterns
+
+Calculated properties
+
+ScriptBlocks
+
+Custom filtering logic
+
+Day 9 — Modules
+
+Build your first module folder
+
+Export-ModuleMember
+
+Auto-load
+
+Structuring a real toolkit
+
+Day 10 — APIs
+
+Invoke-RestMethod, Invoke-WebRequest
+
+OAuth tokens
+
+building wrappers for web services
+
+Sample: GitHub API, Shodan API, ServiceNow
+
+Day 11 — Working with Excel (the RIGHT way in 2025)
+
+Use ImportExcel module (no COM jank)
+
+Create tables, pivot tables, charts
+
+Generate automated SOX sheets
+
+Day 12 — PowerShell + SSH
+
+New-SSHSession
+
+Remote Linux commands
+
+Pull logs, list processes, perform audits
+
+Perfect for hybrid Linux/Windows shops
+
+Day 13 — PowerShell Remoting
+
+WinRM fundamentals
+
+Just Enough Administration (JEA)
+
+Secure endpoints
+
+Day 14 — Scheduling + jobs
+
+Background jobs
+
+Runspaces (fast async)
+
+Task Scheduler automation
+
+WEEK 3 — Security, SOX, and Enterprise Ops (Days 15–21)
+
+Dial in cyber & compliance skills you actually use.
+
+Day 15 — Active Directory automation
+
+Get-ADUser, Get-ADGroup, recursive membership
+
+Admin audit scripts
+
+Detect privilege escalation
+
+Export nested structures
+
+Day 16 — SOX automation patterns
+
+SQL queries → PS → Excel automation
+
+Oracle queries (ODP.NET)
+
+Privileged access diffs (dba vs priv user lists)
+
+Normalizing CSV output
+
+Build a reusable source-pull framework
+
+Day 17 — Logging, evidence, artifact pipelines
+
+Build logs → compress → ship to SharePoint/ServiceNow
+
+Standardize workbook naming
+
+Generate daily/weekly audit packs
+
+Day 18 — Secret management
+
+Manage creds securely
+
+Secret vaults
+
+No plain-text passwords ever
+
+Day 19 — Hardening scripts
+
+Input validation
+
+Escape handling
+
+Avoid injection
+
+Sanitizing file names + output
+
+Day 20 — Audits + inventory
+
+Software inventory scripts
+
+Access report scripts
+
+User lifecycle (joiner/mover/leaver)
+
+Day 21 — Reporting engine
+
+Build HTML dashboards
+
+Embed graphs
+
+Export to PDF
+
+Email reports automatically
+
+WEEK 4 — Build Real Tools (Days 22–30)
+
+You build actual shippable utilities.
+
+Day 22 — Your own CLI tool
+
+Structure:
+
+/MyTool
+  /Modules
+  main.ps1
+  MyTool.psm1
+  config.json
+
+Day 23 — Interactive menus
+
+Terminal UI
+
+Options for reports, scans, exports
+
+Day 24 — Parsing
+
+Regex
+
+Normalize messy logs
+
+Extract key info from Oracle/SQL reports
+
+Day 25 — Multi-system orchestration
+
+Windows → SQL → Oracle → AD in one script
+
+Cross-platform automation
+
+Day 26 — Error-resilient pipelines
+
+Retry logic
+
+Self-healing scripts
+
+Proper logging
+
+Day 27 — Packaging
+
+Ship as a module
+
+Package as an EXE via ps2exe (optional)
+
+Day 28 — Versioning + GitHub
+
+Release tags
+
+Changelogs
+
+Folder structure for enterprise use
+
+Day 29 — Build one “Big Project”
+
+Examples:
+
+SOX Privileged User Analyzer
+
+AD Nested Group Visualizer
+
+Oracle/SQL Access Diff Engine
+
+Automated workbook generator
+
+Day 30 — Final polish
+
+Cleanup
+
+Docs
+
+README
+
+Prepare for production use
