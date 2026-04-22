@@ -1,7 +1,8 @@
 export default function Footer() {
   return (
     <footer className="footer">
-      <small>© {new Date().getFullYear()} — Built with Vite + React</small>
+      <p>30-day PowerShell curriculum for operators, engineers, and security teams.</p>
+      <small>© {new Date().getFullYear()} Neal Frazier</small>
     </footer>
-  )
+  );
 }

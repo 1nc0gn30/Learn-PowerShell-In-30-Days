@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 64 64">
-  <rect width="64" height="64" rx="12" fill="#111827"/>
-  <path d="M20 40h8l-2-16h-8l2 16Zm18-16h-8l2 16h8l-2-16Z" stroke="#7dd3fc" stroke-width="4" stroke-linejoin="round"/>
-  <circle cx="32" cy="20" r="6" fill="#7dd3fc"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Learn PowerShell In 30 Days favicon">
+  <rect width="64" height="64" rx="12" fill="#0b0f19"/>
+  <circle cx="32" cy="32" r="18" fill="#22d3ee" opacity="0.85"/>
+  <circle cx="32" cy="32" r="8" fill="#0b0f19"/>
 </svg>
